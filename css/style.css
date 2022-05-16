@@ -310,6 +310,7 @@
     position:absolute;
     top: -7px; right: 10px;
     width:3rem; height:4.8rem;
+    font-family: Malgun Gothic;
     transition:1s;
     z-index:100;
     cursor: pointer;
@@ -324,7 +325,7 @@
     z-index: 0;
 }
 .quick_btn p.btn1.on{
-    top: -100px;
+    top: -80px;
     z-index:99;
 }
 .quick_btn p.btn2{
@@ -334,7 +335,7 @@
     z-index: 0;
 }
 .quick_btn p.btn2.on{
-    top: -200px;
+    top: -160px;
     z-index:99;
 }
 .quick_btn p.btn3{
@@ -344,7 +345,7 @@
     z-index: 0;
 }
 .quick_btn p.btn3.on{
-    top: -280px;
+    top: -240px;
     z-index:99;
 }
 
@@ -859,6 +860,7 @@ form{
 #sec7 a{
     position: relative;
     padding: 0 30px;
+    line-height: 1.5rem;
 }
 #sec7 a::after{
     content: '';
